@@ -14,7 +14,8 @@ let bob = "Bob";
 function estableceNombreUsuario() {
   let miNombre = prompt("Introduzca su nombre.");
   if (!miNombre) {
-    estableceNombreUsuario();
+    alert('El nombre no puede estar vacío');
+    return;
   } else {
     localStorage.setItem("nombre", miNombre);
     miTitulo.innerHTML = "Mozilla is genial, " + miNombre;
