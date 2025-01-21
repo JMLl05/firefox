@@ -20,6 +20,9 @@ function estableceNombreUsuario() {
     miTitulo.innerHTML = "Mozilla is genial, " + miNombre;
   }
 }
+miBoton.onclick = function () {
+  estableceNombreUsuario();
+};
 
 //function multiplica(num1, num2) {
 //   return num1 * num2;
