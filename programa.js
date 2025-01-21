@@ -35,10 +35,10 @@ function estableceNombreUsuario() {
   let miImage = document.querySelector("img");
   miImage.onclick = function () {
     let miSrc = miImage.getAttribute("src");
-    if (miSrc === "imgs/firefox.png") {
-      miImage.setAttribute("src", "imgs/firefox_actual.png");
+    if (miSrc === "firefox.png") {
+      miImage.setAttribute("src", "firefox_actual.png");
     } else {
-      miImage.setAttribute("src", "imgs/firefox.png");
+      miImage.setAttribute("src", "firefox.png");
     }
   };
   
